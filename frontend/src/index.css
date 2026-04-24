@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  html {
+    overscroll-behavior-y: none;
+  }
+
+  body {
+    @apply bg-black text-white overflow-x-hidden;
+  }
+
+  #root {
+    @apply min-h-screen bg-black;
+  }
+}
+
+body {
+  cursor: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+}
+
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Remove browser password icons */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+input[type="password"]::-webkit-credentials-auto-fill-button {
+  display: none !important;
+}
