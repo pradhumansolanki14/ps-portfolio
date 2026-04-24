@@ -19,14 +19,17 @@ frontend/dist
 
 # Env files
 .env
-backend/.env
-frontend/.env
+.env.*
+.env.local
 
 # Local files
 *.local
 
-# Admin script (optional but recommended)
+# Admin script
 backend/createAdmin.js
+
+# Vercel
+.vercel
 
 # Editor
 .vscode/*
