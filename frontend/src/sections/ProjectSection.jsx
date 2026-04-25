@@ -42,7 +42,7 @@ const ProjectSection = () => {
 
               {/* IMAGE */}
               <img
-                src={`http://localhost:5000${project.image}`}
+src={project.image}
                 alt={project.title}
                 className="h-48 w-full object-cover"
               />
