@@ -1,6 +1,3 @@
-
-
-
 import { useState } from "react";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 

@@ -15,7 +15,7 @@ const ReviewModal = ({ open, setOpen }) => {
   });
 
   const [errors, setErrors] = useState({});
-  const [loading, setLoading] = useState(false); // ✅ added
+  const [loading, setLoading] = useState(false);
 
   // 🔥 VALIDATION
   const validate = () => {

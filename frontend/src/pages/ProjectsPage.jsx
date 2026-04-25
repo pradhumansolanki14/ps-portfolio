@@ -18,7 +18,7 @@ const ProjectsPage = () => {
 
      
 
-      {/* 🔥 ALL PROJECTS */}
+      {/* ALL PROJECTS */}
       <ProjectsGrid />
 
       {/* CTA */}
