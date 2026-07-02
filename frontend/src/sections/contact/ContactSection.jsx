@@ -85,16 +85,16 @@ const ContactSection = () => {
           {/* CONTACT LINKS */}
           <div className="flex flex-col gap-3">
 
-            <a
+            {/* <a
               href="mailto:your@email.com"
               className="flex items-center gap-3 text-gray-700 dark:text-gray-300 
               hover:text-emerald-400 transition"
             >
               <FaEnvelope /> your@email.com
-            </a>
+            </a> */}
 
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/pradhumansolanki14"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-gray-700 dark:text-gray-300 
@@ -104,7 +104,7 @@ const ContactSection = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/pradhuman-solanki"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-gray-700 dark:text-gray-300 

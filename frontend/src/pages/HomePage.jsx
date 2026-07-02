@@ -6,7 +6,7 @@ import AboutPreview from "../sections/home/AboutPreview";
 import FeaturedProjects from "../sections/home/FeaturedProjects";
 import SkillsPreview from "../sections/home/SkillsPreview";
 import CTASection from "../sections/home/CTASection";
-import ReviewsSection from "../sections/home/ReviewSection";
+// import ReviewsSection from "../sections/home/ReviewSection";
 
 const HomePage = () => {
   return (
@@ -18,7 +18,7 @@ const HomePage = () => {
         <AboutPreview/>
         <SkillsPreview />
         <FeaturedProjects />
-        <ReviewsSection/>
+        {/* <ReviewsSection/> */}
         <CTASection />
       </main>
 

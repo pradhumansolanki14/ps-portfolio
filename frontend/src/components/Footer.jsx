@@ -33,7 +33,7 @@ const Footer = () => {
 
           {/* GITHUB */}
           <motion.a
-            href="https://github.com/yourusername"
+            href="https://github.com/pradhumansolanki14"
             target="_blank"
             rel="noreferrer"
             whileHover={{ scale: 1.15 }}
@@ -50,7 +50,7 @@ const Footer = () => {
 
           {/* LINKEDIN */}
           <motion.a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/pradhuman-solanki"
             target="_blank"
             rel="noreferrer"
             whileHover={{ scale: 1.15 }}

@@ -2,6 +2,8 @@ import {
   FaReact,
   FaNodeJs,
   FaGitAlt,
+  FaHtml5,
+  FaCss3,
 } from "react-icons/fa";
 
 import {
@@ -13,6 +15,8 @@ import {
   SiFigma,
   SiNextdotjs,
   SiTypescript,
+  SiBootstrap,
+  SiGithub,
 } from "react-icons/si";
 
 import { motion } from "framer-motion";
@@ -23,10 +27,13 @@ const AboutSkills = () => {
     title: "Frontend",
     items: [
       { name: "React", icon: FaReact, color: "text-cyan-400" },
-      { name: "Next.js", icon: SiNextdotjs, color: "text-black dark:text-white" },
-      { name: "Tailwind", icon: SiTailwindcss, color: "text-sky-400" },
-      { name: "TypeScript", icon: SiTypescript, color: "text-blue-600" },
       { name: "JavaScript", icon: SiJavascript, color: "text-yellow-400" },
+      { name: "HTML5", icon: FaHtml5, color: "text-orange-400" },
+      { name: "CSS3", icon: FaCss3, color: "text-blue-400" },
+      { name: "Tailwind", icon: SiTailwindcss, color: "text-sky-400" },
+      { name: "Bootstrap", icon: SiBootstrap, color: "text-purple-600" },
+
+     
     ],
   },
   {
@@ -35,14 +42,17 @@ const AboutSkills = () => {
       { name: "Node.js", icon: FaNodeJs, color: "text-green-500" },
       { name: "Express", icon: SiExpress, color: "text-gray-500 dark:text-gray-300" },
       { name: "MongoDB", icon: SiMongodb, color: "text-green-400" },
+    
+          
     ],
   },
   {
     title: "Tools",
     items: [
-      { name: "Git", icon: FaGitAlt, color: "text-orange-500" },
+      { name: "Git", icon: FaGitAlt, color: "text-red-500" },
+       { name: "GitHub", icon: SiGithub, color: "text-gray-700 dark:text-gray-300" },
       { name: "Postman", icon: SiPostman, color: "text-orange-400" },
-      { name: "Figma", icon: SiFigma, color: "text-pink-500" },
+   
     ],
   },
 ];

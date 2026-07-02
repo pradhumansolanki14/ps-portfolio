@@ -6,28 +6,26 @@ import {
   SiPostgresql,
   SiExpress,
   SiTailwindcss,
-  SiTypescript,
+  SiJavascript,
   SiFirebase,
   SiRedux,
   SiVercel,
+  SiGithub,
 } from "react-icons/si";
 
 
 
 const techStack = [
   { name: "React", icon: <FaReact />, color: "text-cyan-400" },
-  { name: "Next.js", icon: <SiVercel />, color: "text-black dark:text-white" },
+  { name: "JavaScript", icon: <SiJavascript />, color: "text-yellow-500" },
   { name: "Node.js", icon: <FaNodeJs />, color: "text-green-500" },
   { name: "Express", icon: <SiExpress />, color: "text-gray-400" },
   { name: "MongoDB", icon: <SiMongodb />, color: "text-green-400" },
-  { name: "PostgreSQL", icon: <SiPostgresql />, color: "text-blue-500" },
   { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "text-sky-400" },
-  { name: "TypeScript", icon: <SiTypescript />, color: "text-blue-600" },
   { name: "Redux", icon: <SiRedux />, color: "text-purple-500" },
-  { name: "Firebase", icon: <SiFirebase />, color: "text-yellow-500" },
   { name: "Git", icon: <FaGitAlt />, color: "text-orange-500" },
-  { name: "Docker", icon: <FaDocker />, color: "text-blue-400" },
   { name: "Vercel", icon: <SiVercel />, color: "text-black dark:text-white" },
+  {name: "GitHub", icon: <SiGithub />, color: "text-gray-700 dark:text-gray-300"},
 ];
 
 const SkillsPreview = () => {
@@ -72,7 +70,7 @@ useEffect(() => {
   return (
     <section className="relative py-15 md:py-28 overflow-hidden text-center">
 
-      {/* ❌ KEEP YOUR BACKGROUND (unchanged) */}
+  
       <div className="absolute inset-0 -z-10">
         <div
           className="absolute inset-0 
@@ -86,10 +84,9 @@ useEffect(() => {
         />
       </div>
 
-      {/* ✅ FIXED CONTAINER ALIGNMENT ONLY */}
+     
       <div className="max-w-7xl mx-auto px-6 md:px-8">
 
-        {/* HEADER (unchanged) */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}

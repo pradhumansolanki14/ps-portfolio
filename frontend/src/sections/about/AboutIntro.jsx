@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
+import profile3 from "../../assets/profile3.jpg";
 
 const AboutIntro = () => {
   return (
     <section className="py-15 md:py-28">
 
-      {/* ✅ FIXED CONTAINER */}
+    
       <div className="max-w-7xl mx-auto px-6 md:px-8 grid md:grid-cols-2 gap-16 items-center">
 
         {/* IMAGE */}
@@ -17,11 +18,11 @@ const AboutIntro = () => {
         >
           <div className="relative w-[260px] h-[320px] md:w-[300px] md:h-[360px]">
 
-            {/* subtle shadow instead of heavy glow */}
+          
             <div className="absolute inset-0 rounded-2xl bg-black/10 blur-2xl" />
 
             <img
-              src="/profile.jpg"
+              src={profile3}
               alt="profile"
               className="relative w-full h-full object-cover rounded-2xl 
               border border-gray-200 dark:border-white/10"
@@ -76,7 +77,7 @@ const AboutIntro = () => {
           {/* STATS (kept your style, slightly refined) */}
           <div className="grid grid-cols-3 gap-4 max-w-md">
             {[
-              { value: "10+", label: "Projects" },
+              { value: "5+", label: "Projects" },
               { value: "5+", label: "Technologies" },
               { value: "100%", label: "Commitment" },
             ].map((item, i) => (
