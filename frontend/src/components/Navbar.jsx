@@ -71,7 +71,7 @@ const Navbar = ({ onMenuClick, onLogoutClick }) => {
             <span className="hidden dark:block absolute inset-0 rounded-lg 
             bg-emerald-400/30 blur-md opacity-40" />
 
-            <span className="relative z-10">PN</span>
+            <span className="relative z-10">PS</span>
           </div>
 
           {/* TEXT */}
